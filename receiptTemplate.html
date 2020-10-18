@@ -2,10 +2,15 @@
 <html>
     <head></head>
 
-    <body>
+    <body onload="PrintPage()">
         <p>Paid By: paidBy</p>
         <p>Receipt Date: receiptDate</p>
         <p>Amount Received: amount</p>
         <p>Received By: receivedBy</p>
     </body>
 </html>
+<script>
+    function PrintPage(){
+        Window.PrintPage()
+    }
+</script>
